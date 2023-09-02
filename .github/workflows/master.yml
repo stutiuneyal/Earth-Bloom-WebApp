@@ -44,7 +44,7 @@ jobs:
         run: docker build -t webdev .
         
       - name: Tag Docker Image
-        run: docker tag devops1:latest spoorthij27/webdev:latest
+        run: docker tag webdev:latest spoorthij27/webdev:latest
       
       - name: Push Docker Image
         run: docker push spoorthij27/webdev:latest
