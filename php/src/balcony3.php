@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -144,18 +144,18 @@
     <div class="banner">
         <pre class="logo2">Earth & Bloom</pre>
         <div class="navbar">
-            <a href="homepage.html"><img src="logo.png" class="logo"></a>
+            <a href="index.php"><img src="logo.png" class="logo"></a>
             <img src="sgn.png" class="lgn">
-            <a href="signup.html" style="color:white; font-size: 15px;">Signup</a>
+            <a href="signup.php" style="color:white; font-size: 15px;">Signup</a>
             <img src="lgn1.png" class="wsl">
-            <a href="login.html" style="color:white; font-size: 15px;">Login</a>
+            <a href="login.php" style="color:white; font-size: 15px;">Login</a>
             <img src="spc.png" class="spc">
-            <a href="cart.html" style="color:white; font-size: 15px;">Cart</a>
+            <a href="cart.php" style="color:white; font-size: 15px;">Cart</a>
             <ul>
-                <li><a href="garden catalogue.html">Our Services</a></li>
-                <li><a href="shop.html">Shop </a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="garden catalogue.php">Our Services</a></li>
+                <li><a href="shop.php">Shop </a></li>
+                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
             </ul>
         </div>
         <input type="text" placeholder="Search..">
@@ -190,4 +190,4 @@
             </pre></p>
         </div>
 </body>
-</html>
+</php>

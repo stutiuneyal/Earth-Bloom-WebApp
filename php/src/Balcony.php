@@ -129,7 +129,7 @@ width: 100%;
   <div class="banner">
     <pre class="logo2">Earth & Bloom</pre>
     <div class="navbar">
-    <a href="homepage.php"><img src="logo.png" class="logo"></a>
+    <a href="index.php"><img src="logo.png" class="logo"></a>
         <ul>
                     <ul style="float:right;">
                         <li><a href="signup.php"><i class="fa fa-sign-in"></i> Signup</a></li>
