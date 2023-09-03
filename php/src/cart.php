@@ -5,7 +5,7 @@ session_start();
 require_once ("php/createdb.php");
 require_once ("php/component.php");
 
-$db = new createdb("shoppingdb", "Cart");
+$db = new createdb("shoppingdb", "cart");
 
 if (isset($_POST['remove'])){
   if ($_GET['action'] == 'remove'){

@@ -16,7 +16,7 @@ class createdb
         $dbname = "Newdb",
         $tablename = "Productdb",
         $servername = "db",
-        $username = "root",
+        $username = "spoorthi",
         $password = "sp@2003"
     )
     {

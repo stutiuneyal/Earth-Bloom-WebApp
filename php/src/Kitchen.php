@@ -9,12 +9,18 @@
 </head>
 <body>
     <style>
-     *{
+ *{
     margin: 0;
     padding: 0;
     font-family: 'Architects Daughter';
-}
-
+    }
+  .banner{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    }
 .logo{
     margin-top: auto;
 width: 120px;
@@ -61,98 +67,71 @@ transition: 0.5s;
 .navbar ul li:hover::after{
 width: 100%;
 }
+  .container {
+  text-align: center;
+  color:#059B14;
+  font-size: 100px;
+  }
 
-
-    .logo2{
+  .info{
+    text-align:center;
+    font-size: 20px;
+  }
+  .requirements{
+    float: left;
+    margin-top:30px;
+    margin-bottom:50px;
+    margin-left: 100px;
+    margin-right:20%;
+    color:#059B14;
+  }
+  .suitable_plants{
+    float:right;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right: 100px;
+    
+    color:#059B14 ;
+  }
+  .images{
+    margin-top:20%;
+    
+  }
+  .img{
+    float: left;
+    border: 4px #059B14;
+    border-style:solid;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 40px;
+  }   
+  .logo2{
         font-size: 40px;
-        font-weight: bold;
         color: white;
         margin-top: auto;
         margin-bottom: -50px;
         margin-left: 140px;
     }
-      .container {
-     
-      text-align: center;
-      color:#059B14;
-      font-size: 100px;
-     
-      }
-      
-      .info{
-        text-align:center;
-        font-size: 20px;
-      }
-      .requirements{
-        float: left;
-        margin-top:30px;
-        margin-bottom:50px;
-        margin-left: 100px;
-        margin-right:20%;
-        color:#059B14 ;
-      }
-      .suitable_plants{
-        float:right;
-        margin-top:30px;
-        margin-bottom:30px;
-        margin-right: 100px;
-        
-        color:#059B14;
-      }
-      .images{
-        margin-top:15%;
-        
-      }
-      .img{
-        float: left;
-        border: 4px #059B14;
-        border-style:solid;
-        margin-left: 90px;
-        margin-right: 90px;
-        margin-bottom: 40px;
-      }
-      h1{
-        color:#059B14 ;
-      }
-      .c{
-        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(background.jpeg);
-    width: 100%;
-    height:100%;
-    background-size: cover;
-    background-position: center;
-       
-    }
-    .c input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        background-color: beige;
-        margin-top: -90px;
-        margin-right: 800px;
-        font-size: 17px;
-        }  
-    
-      
     </style>
     
     <body>
-      <div class="c">
-          <pre class="logo2">Earth & Bloom</pre>
-          <div class="navbar">
-          <a href="index.php"><img src="logo.png" class="logo"></a>
-                <ul>
-                    <ul style="float:right;">
-                        <li><a href="signup.php"><i class="fa fa-sign-in"></i> Signup</a></li>
-                        <li><a href="login.php" ><i class="fa fa-user"></i> Login</a></li>
-                        <li><a href="cart.php" ><i class="fas fa-shopping-cart"></i> Cart</a></li>
-                    </ul>
-                     <br /><br />
-                    <li><a href="garden catalogue.php">Our Services</a></li>
-                    <li><a href="shop.php">Shop </a></li>
-                    <li><a href="aboutus.php">About Us</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                </ul>
-          </div>
+      <div class="banner">
+        <pre class="logo2">Earth & Bloom</pre>
+        <div class="navbar">
+        <a href="index.php"><img src="logo.png" class="logo"></a>
+            <ul>
+                        <ul style="float:right;">
+                            <li><a href="signup.php"><i class="fa fa-sign-in"></i> Signup</a></li>
+                            <li><a href="login.php" ><i class="fa fa-user"></i> Login</a></li>
+                            <li><a href="cart.php" ><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                        </ul>
+                         <br /><br />
+                        <li><a href="garden catalogue.php">Our Services</a></li>
+                        <li><a href="shop.php">Shop </a></li>
+                        <li><a href="aboutus.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+            </ul>
+        </div>
        <div class="container">
         <div>Kitchen Garden</div>
        </div> 
@@ -183,14 +162,14 @@ width: 100%;
       </div>
       <div class="images">
         <div class="img">
-          <img src="kitchen/kitchen1.jpg" height="250px" width="300px">
+          <a href="kitchen1.php"><img src="kitchen/kitchen1.jpg" height="250px" width="300px"></a>
         </div>
         <div class="img">
-          <img src="kitchen/kitchen2.jpg" height="250px" width="300px">
+          <a href="kitchen2.php"><img src="kitchen/kitchen2.jpg" height="250px" width="300px"></a>
         </div>
         
         <div class="img">
-          <img src="kitchen/kitchen3.jpg" height="250px" width="300px">
+          <a href="kitchen3.php"><img src="kitchen/kitchen3.jpg" height="250px" width="300px"></a>
         </div>
       </div>
       <h1 style="color:#059B14;padding-left: 3%;padding-top: 1%;">Know more about kitchen gardening</h1>

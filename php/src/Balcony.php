@@ -197,7 +197,7 @@ width: 100%;
       <a href="balcony7.php"><img src="balcony/balconygarden7.jpg" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <a href="balcony8.php"></a><img src="balcony/balconygarden8.jpeg" height="250px" width="300px"></a>
+      <a href="balcony8.php"><img src="balcony/balconygarden8.jpeg" height="250px" width="300px"></a>
     </div>
   </div>
   <div>

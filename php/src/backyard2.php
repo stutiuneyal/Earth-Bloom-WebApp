@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b944b8a5c3.js" crossorigin="anonymous"></script>
-    <title>Balcony</title>
+    <title>Backyard</title>
 </head>
 <style>
     *{
@@ -102,6 +102,14 @@
     margin-bottom: 200px;
     padding-top: 30px;
   }
+  .arrowright{
+  position:relative;
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 20px solid white;
+}
 .arrowleft{
   position:relative;
   width: 0; 
@@ -131,35 +139,23 @@
         </ul>
     </div>
         <div class="a">
-            <h2 style="color:white;font-size:30px;">TOMATO PLANTS</h2>
+            <h2 style="color:white;font-size:30px;">BACKYARD GARDEN</h2>
         </div>
         <div class="img">
-            <img src="balcony/balconygarden2.jpg" height="250px" width="300px">
-            <div class="arrowleft" style="left:205px; bottom: 150px; font-size: 25px; color: yellow;"> Tomato Plant</div>
-            <div class="arrowleft" style="left:80px; bottom:85px; font-size: 25px; color: yellow;"> Container</div>
-            <div class="arrowleft" style="left:50px; bottom:250px; font-size: 25px; color: yellow;"> Sofa</div>
+            <img src="backyard/backyard2.jpg" height="250px" width="300px">
+            <div class="arrowleft" style="left:80px; bottom: 150px; font-size: 25px; color: yellow;">Vegetable Plants</div>
+            <div class="arrowleft" style="left:165px; bottom:125px; font-size: 25px; color: yellow;">Wooden Frames</div>
+            <div class="arrowleft" style="left:20px; bottom:140px; font-size: 25px; color: yellow;">Artificial Lawn</div>
         </div>
 
         <div>
             <p><pre style="font-size:22px;color:white;padding-left: 3%;padding-top: 30px;">
-                Tomatoes on the balcony should be planted in well-drained, stable pots. Plant tomatoes in
-                fertile soil to ensure favorable growth. Obtain compost or well-rotted manure, garden soil,
-                and gravel or expanded clay for preparation.
-
-                While preparing the soil, remember it should have to be well drained, permeable, slightly
-                acidic and loamy. Also, mix slow release tomato fertilizer to the soil so that the plants
-                will receive nutrition from time to time.
-
-                Sow tomato seeds when the risk of frost passes and spring arrives. Seeds will germinate
-                quickly within 5-10 days. Transplant them in containers when two real leaves form.
-
-                Tomatoes on the balcony constantly need moist soil as balconies remain windier than regular
-                gardens. Regular watering of tomato plants is essential, even twice on a dry, windy day
-                in summer in a hot climate. Water tomatoes in a way that it’ll not soak their leaves.
-
-                In a balcony with size 4 ft x 9 ft, to grow a tomato garden, you will need 2-3 large,
-                stable containers of tomato plants, or, a few stable pots, a small sofa, seeds and a
-                watering can.
+                For converting a similar backyard into a backyard garden, you will require, about 5-10 vegetable
+                plants (Eg:- Tomato, Egg plant, Cucumber, Garlic), wooden frames, and artificial lawn.
+                
+                In a backyard of size 10 ft x 15 ft, to grow a similar backyard garden, you will need 10-15
+                vegetable plants, an artificial lawn of about 5 ft x 10 ft, wooden frames, seeds and a watering
+                can.
          
             </pre></p>
         </div>

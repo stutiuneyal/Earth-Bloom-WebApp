@@ -8,12 +8,18 @@
     <title>Container</title>
 </head>
 <style>
- *{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Architects Daughter';
-}
-
+    }
+  .banner{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    }
 .logo{
     margin-top: auto;
 width: 120px;
@@ -60,19 +66,12 @@ transition: 0.5s;
 .navbar ul li:hover::after{
 width: 100%;
 }
-.logo2{
-        font-size: 40px;
-        font-weight: bold;
-        color: white;
-        margin-top: auto;
-        margin-bottom: -50px;
-        margin-left: 140px;
-    }
   .container {
   text-align: center;
   color:#059B14;
   font-size: 100px;
   }
+
   .info{
     text-align:center;
     font-size: 20px;
@@ -83,7 +82,7 @@ width: 100%;
     margin-bottom:50px;
     margin-left: 100px;
     margin-right:20%;
-    color:#059B14 ;
+    color:#059B14;
   }
   .suitable_plants{
     float:right;
@@ -94,7 +93,7 @@ width: 100%;
     color:#059B14 ;
   }
   .images{
-    margin-top:18%;
+    margin-top:20%;
     
   }
   .img{
@@ -102,36 +101,25 @@ width: 100%;
     border: 4px #059B14;
     border-style:solid;
     margin-left: 90px;
-    margin-right: 90px;
+    margin-right: 70px;
     margin-bottom: 40px;
-  }
-  .c
-    {
-      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(background.jpeg);
-    width: 100%;
-    height:100%;
-    background-size: cover;
-    background-position: center;
-  }
-  .c input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        background-color: beige;
-        margin-top: -90px;
-        margin-right: 800px;
-        font-size: 17px;
-  }  
-  
+  }   
+  .logo2{
+        font-size: 40px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: -50px;
+        margin-left: 140px;
+    }
   
 </style>
 
 <body>
-  <div class="c">
+  <div class="banner">
     <pre class="logo2">Earth & Bloom</pre>
-      <div class="navbar">
-      <a href="index.php"><img src="logo.png" class="logo"></a>
-                <ul>
+    <div class="navbar">
+    <a href="index.php"><img src="logo.png" class="logo"></a>
+        <ul>
                     <ul style="float:right;">
                         <li><a href="signup.php"><i class="fa fa-sign-in"></i> Signup</a></li>
                         <li><a href="login.php" ><i class="fa fa-user"></i> Login</a></li>
@@ -142,8 +130,8 @@ width: 100%;
                     <li><a href="shop.php">Shop </a></li>
                     <li><a href="aboutus.php">About Us</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
-                </ul>
-      </div>
+        </ul>
+    </div>
    <div class="container">
     <div class="centered">Container Garden</div>
    </div> 
@@ -176,28 +164,21 @@ width: 100%;
   </div>
   <div class="images">
     <div class="img">
-      <img src="container/container1.jpg" height="250px" width="300px">
+      <a href="container1.php"><img src="container/container1.jpeg" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <img src="container/container2.jpg" height="250px" width="300px">
-    </div>
-    
-    <div class="img">
-      <img src="container/container3.jpg" height="250px" width="300px">
+      <a href="container2.php"><img src="container/container2.jpeg" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <img src="container/container4.jpg" height="250px" width="300px">
+      <a href="container3.php"><img src="container/container3.jpeg" height="250px" width="300px"></a>
     </div>
     <div class="img">
-      <img src="container/container5.jpg" height="250px" width="300px">
-    </div>
-    <div class="img">
-      <img src="container/container6.jpg" height="250px" width="300px">
+      <a href="container4.php"><img src="container/container4.jpeg" height="250px" width="300px"></a>
     </div>
   </div>
   <div>
     <div>
-        <h1 style="color:#059B14;padding-left: 3%;padding-top: 1%;">Know more about Container Garden</h1>
+        <h1 style="margin-top:900px;color:#059B14;padding-left: 3%;padding-top: 1%;">Know more about Container Garden</h1>
         <p>
             <pre style="font-size:18px;color:white;padding-left: 3%;padding-top: 1%;">
  Containers are an easy way to add a splash of color to your garden, patio, or porch. Sure, you can just throw some begonias or petunias into a pot and call it a day. But with a little extra

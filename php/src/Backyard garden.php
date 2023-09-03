@@ -12,8 +12,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Architects Daughter';
-}
-
+    }
+  .banner{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    }
 .logo{
     margin-top: auto;
 width: 120px;
@@ -60,19 +66,12 @@ transition: 0.5s;
 .navbar ul li:hover::after{
 width: 100%;
 }
-.logo2{
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  margin-top: auto;
-  margin-bottom: -50px;
-  margin-left: 140px;
-  }
   .container {
   text-align: center;
   color:#059B14;
   font-size: 100px;
   }
+
   .info{
     text-align:center;
     font-size: 20px;
@@ -83,7 +82,7 @@ width: 100%;
     margin-bottom:50px;
     margin-left: 100px;
     margin-right:20%;
-    color:#059B14 ;
+    color:#059B14;
   }
   .suitable_plants{
     float:right;
@@ -94,7 +93,7 @@ width: 100%;
     color:#059B14 ;
   }
   .images{
-    margin-top:17%;
+    margin-top:20%;
     
   }
   .img{
@@ -104,35 +103,22 @@ width: 100%;
     margin-left: 90px;
     margin-right: 90px;
     margin-bottom: 40px;
-  }
-  .c
-    {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(background.jpeg);
-    background-size: cover;
-    background-position: center;
-       
-  }
-  .c input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        background-color: beige;
-        margin-top: -90px;
-        margin-right: 800px;
-        font-size: 17px;
-  }  
-  
-  
+  }   
+  .logo2{
+        font-size: 40px;
+        color: white;
+        margin-top: auto;
+        margin-bottom: -50px;
+        margin-left: 140px;
+    }
 </style>
 
 <body>
-  <div class="c">
-  <pre class="logo2">Earth & Bloom</pre>
-            <div class="navbar">
-            <a href="index.php"><img src="logo.png" class="logo"></a>
-                <ul>
+  <div class="banner">
+    <pre class="logo2">Earth & Bloom</pre>
+    <div class="navbar">
+    <a href="index.php"><img src="logo.png" class="logo"></a>
+        <ul>
                     <ul style="float:right;">
                         <li><a href="signup.php"><i class="fa fa-sign-in"></i> Signup</a></li>
                         <li><a href="login.php" ><i class="fa fa-user"></i> Login</a></li>
@@ -143,8 +129,8 @@ width: 100%;
                     <li><a href="shop.php">Shop </a></li>
                     <li><a href="aboutus.php">About Us</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
-                </ul>
-      </div>
+        </ul>
+    </div>
    <div class="container">
     <div>Backyard Garden</div>
    </div> 
@@ -179,28 +165,19 @@ width: 100%;
   </div>
   <div class="images">
     <div class="img">
-      <img src="backyard/backyard1.jpg" height="250px" width="300px">
+      <a href="backyard1.php"><img src="backyard/backyard1.jpg" height="250px" width="300px"></a> 
     </div>
     <div class="img">
-      <img src="backyard/backyard2.jpg" height="250px" width="300px">
-    </div>
-    
-    <div class="img">
-      <img src="backyard/backyard3.jpg" height="250px" width="300px">
+      <a href="backyard2.php"><img src="backyard/backyard2.jpg" height="250px" width="300px"></a> 
     </div>
     <div class="img">
-      <img src="backyard/backyard4.jpg" height="250px" width="300px">
+      <a href="backyard3.php"><img src="backyard/backyard3.jpg" height="250px" width="300px"></a> 
     </div>
-    <div class="img">
-      <img src="backyard/backyard5.jpg" height="250px" width="300px">
-    </div>
-    <div class="img">
-      <img src="backyard/backyard6.jpg" height="250px" width="300px">
-    </div>
+
 
   </div>
    <div>
-    <h1 style="color:#059B14;padding-left: 3%;padding-top: 1%;">Know more about Backyard Garden</h1>
+    <h1 style="margin-top:300px;color:#059B14;padding-left: 3%;padding-top: 1%;">Know more about Backyard Garden</h1>
     <p>
       <pre style="font-size:18px;color:white;padding-left: 3%;padding-top: 1%;">
  

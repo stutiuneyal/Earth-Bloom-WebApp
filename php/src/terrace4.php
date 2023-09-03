@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b944b8a5c3.js" crossorigin="anonymous"></script>
-    <title>Balcony</title>
+    <title>Terrace</title>
 </head>
 <style>
     *{
@@ -102,6 +102,14 @@
     margin-bottom: 200px;
     padding-top: 30px;
   }
+  .arrowright{
+  position:relative;
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 20px solid white;
+}
 .arrowleft{
   position:relative;
   width: 0; 
@@ -131,35 +139,24 @@
         </ul>
     </div>
         <div class="a">
-            <h2 style="color:white;font-size:30px;">TOMATO PLANTS</h2>
+            <h2 style="color:white;font-size:30px;">TERRACE GARDEN</h2>
         </div>
         <div class="img">
-            <img src="balcony/balconygarden2.jpg" height="250px" width="300px">
-            <div class="arrowleft" style="left:205px; bottom: 150px; font-size: 25px; color: yellow;"> Tomato Plant</div>
-            <div class="arrowleft" style="left:80px; bottom:85px; font-size: 25px; color: yellow;"> Container</div>
-            <div class="arrowleft" style="left:50px; bottom:250px; font-size: 25px; color: yellow;"> Sofa</div>
+            <img src="terrace/terracegarden4.jpg" height="250px" width="300px">
+            <div class="arrowleft" style="left:240px; bottom: 110px; font-size: 25px; color: yellow;">Flower Pots</div>
+            <div class="arrowright" style="left:150px; bottom:200px; font-size: 25px; color: yellow;">Plants</div>
+            <div class="arrowright" style="left:130px; bottom:180px; font-size: 25px; color: yellow;">Table</div>
+            <div class="arrowleft" style="left:90px; bottom:150px; font-size: 25px; color: yellow;">Chair</div>
+            <div class="arrowright" style="left:170px; bottom:370px; font-size: 25px; color: yellow;">Sunroof</div>
         </div>
 
         <div>
             <p><pre style="font-size:22px;color:white;padding-left: 3%;padding-top: 30px;">
-                Tomatoes on the balcony should be planted in well-drained, stable pots. Plant tomatoes in
-                fertile soil to ensure favorable growth. Obtain compost or well-rotted manure, garden soil,
-                and gravel or expanded clay for preparation.
-
-                While preparing the soil, remember it should have to be well drained, permeable, slightly
-                acidic and loamy. Also, mix slow release tomato fertilizer to the soil so that the plants
-                will receive nutrition from time to time.
-
-                Sow tomato seeds when the risk of frost passes and spring arrives. Seeds will germinate
-                quickly within 5-10 days. Transplant them in containers when two real leaves form.
-
-                Tomatoes on the balcony constantly need moist soil as balconies remain windier than regular
-                gardens. Regular watering of tomato plants is essential, even twice on a dry, windy day
-                in summer in a hot climate. Water tomatoes in a way that it’ll not soak their leaves.
-
-                In a balcony with size 4 ft x 9 ft, to grow a tomato garden, you will need 2-3 large,
-                stable containers of tomato plants, or, a few stable pots, a small sofa, seeds and a
-                watering can.
+                For converting a similar terrace into a terrace garden, you will require 2 chairs, a table, about
+                5-6 flower pots (Eg:- Rose, Marigold, Hibiscus, Pancy), plants, and a sunroof.
+                
+                In a terrace of size 20 ft x 30 ft, to grow a similar terrace garden, you will need 8-10 flower
+                pots, a few plants, a sunroof, a small table with 2 chairs, seeds, and a watering can.
          
             </pre></p>
         </div>
