@@ -30,16 +30,12 @@
 </head>
 
 <body>
-    <?php
-    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
-        include 'appoint_connect.php';
-    }
-    ?>
     <div class="success-message">
         <h1>Appointment Booked Successfully!</h1>
         <p>Thank you for booking an appointment with us.</p>
-        <p>Your appointment has been successfully booked for the following details:</p>
+        <p>Your appointment has been successfully booked.</p>
         <p>We look forward to seeing you on the scheduled date.</p>
+        <p>Click here to go to homepage.<a href="index.php">Homepage</a></p>
         <p>For any further queries, please contact us at <a href="mailto:earthnbloom00@gmail.com">earthnbloom00@gmail.com</a>.</p>
     </div>
 </body>

@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Appointment Booking</title>
-    <!-- Add the Roboto font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b944b8a5c3.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: "Roboto", Arial, sans-serif;
@@ -25,7 +24,7 @@
         }
 
         .container {
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
             background-color: #ffffff;
             padding: 20px;
@@ -109,6 +108,16 @@
             font-size: 14px;
             text-align: left;
         }
+        form .btn {
+            cursor:pointer;
+            width: 320px;
+            height: 35px;
+            margin-top: 20px;
+            border: none;
+            background-color: #059B14;
+            color: white;
+            font-size: 18px;
+  }
     </style>
     <script>
         // Function to show/hide the morning, afternoon, and evening checkboxes based on the date selected
@@ -128,7 +137,7 @@
 <body>
     <h1>Appointment Booking</h1>
     <div class="container">
-        <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8">
+        <form action="appoint_connect.php"  method="POST">
             <fieldset>
                 <legend>For person</legend>
                 <label>
@@ -142,7 +151,11 @@
                     </label>
                     <label>
                         Phone number
-                        <input type="tel" name="phone">
+                        <input type="text" name="phone">
+                    </label>
+                    <label>
+                        Service
+                        <input type="text" name="service">
                     </label>
                 </div>
             </fieldset>
@@ -150,7 +163,7 @@
                 <legend>Appointment request</legend>
                 <label>
                     Date
-                    <input type="date" id="date" name="Appointment request" required onchange="showHideTimeSlots()">
+                    <input type="date" name="date" required onchange="showHideTimeSlots()">
                 </label>
                 <div class="inline">
                     <label class="time-slot">
@@ -171,10 +184,9 @@
                 </div>
             </fieldset>
             <div class="btns">
-                <input type="text" name="_gotcha" value="" style="display:none;">
-                <form method="POST" action="appointmentsucces.html">
-                    <input type="submit" value="Submit request"> 
-                </form> 
+                    <div>
+                        <button class="btn" name="submit" type="submit">Book Now</button>
+                    </div>
             </div>
         </form>
     </div>

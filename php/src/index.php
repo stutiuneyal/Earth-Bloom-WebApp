@@ -31,15 +31,17 @@
             <div>
             <button type="button"><span></span><a href="shop.php" style="font-size: 20px; color: white; font-family: 'Architects Daughter';">SHOP NOW</a></button>
             </div>
-            </div>
         </div>
+        <div>
+<div style="margin-top:500px;float:left;">
+    <button class="button1" type="button"><span class="span1"></span><a href="Get Plant Suggestions.php">Get Plant Suggestions</a></button>
+</div>
+<div style="margin-top:500px;float:right;">
+    <button class="button1" type="button" ><span class="span1"></span><a href="bookanappointment.html">Book an Appointment</a></button>
+</div>
+</div>
+            </div>
        
 </div>
-
-<div1>
-    <button class="button1" type="button"><span class="span1"></span><a href="Get Plant Suggestions.php">Get Plant Suggestions</a></button>
-</div1>
-
-        
-    </body>
+</body>
 </html>
