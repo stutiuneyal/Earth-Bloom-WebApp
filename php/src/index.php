@@ -26,7 +26,7 @@
             </div>
           
             <div class="content" style="top:50%;">
-                <h1>Earth & Bloom</h1><br>
+                <h1>Earth & Bloom 1</h1><br>
                 <p>Bring nature to your Home!</p>
             <div>
             <button type="button"><span></span><a href="shop.php" style="font-size: 20px; color: white; font-family: 'Architects Daughter';">SHOP NOW</a></button>
